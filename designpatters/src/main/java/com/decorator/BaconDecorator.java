@@ -1,6 +1,6 @@
 package com.decorator;
 
-public class BaconDecorator extends ItemPedidoDecorator {
+public final class BaconDecorator extends ItemPedidoDecorator {
 
     public BaconDecorator(ItemPedido itemPedido){
         super(itemPedido);
