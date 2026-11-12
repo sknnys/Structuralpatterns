@@ -8,7 +8,7 @@ public class Principal {
         ItemPedidoDecorator baconzinho = new BaconDecorator(xtudo);
         ItemPedidoDecorator molhinho = new MolhoEspecialDecorator(pizza);
         ItemPedidoDecorator queijinho = new QueijoExtraDecorator(molhinho);
-        
+
         System.out.println("\n");
         System.out.println("PEDIDO 1:");
         System.out.println(queijinho.getDescricao());
