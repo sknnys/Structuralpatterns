@@ -1,6 +1,6 @@
 package com.decorator;
 
-public class QueijoExtraDecorator extends ItemPedidoDecorator{
+public final class QueijoExtraDecorator extends ItemPedidoDecorator{
     public QueijoExtraDecorator(ItemPedido itemPedido){
         super(itemPedido);
     }

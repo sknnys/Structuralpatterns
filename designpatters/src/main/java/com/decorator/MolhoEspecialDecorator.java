@@ -1,6 +1,6 @@
 package com.decorator;
 
-public class MolhoEspecialDecorator extends ItemPedidoDecorator {
+public final class MolhoEspecialDecorator extends ItemPedidoDecorator {
 
 
     public MolhoEspecialDecorator(ItemPedido itemPedido) {
